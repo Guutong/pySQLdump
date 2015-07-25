@@ -11,7 +11,13 @@ destination = /root/pySQLBackup/<br/>
 
 
 <h3>Dowload</h3><br/>
-wget https://github.com/Guutong/pySQLdump/releases/download/v.0.0.1/pySQLdumpSetup.sh<br/>
+# wget https://github.com/Guutong/pySQLdump/releases/download/v.0.0.1/pySQLdumpSetup.sh <br>
+
+# chmod +x pySQLdumpSetup.sh <br>
+
+# mkdir /root/pySQLBackup/ <br>
+
+# ./pySQLdumpSetup.sh <br>
 
 <h3>How to setting Auto backup with crontab</h3><br/>
 <p>sudo apt-get install crontab <br/>
