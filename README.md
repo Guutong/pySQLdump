@@ -22,5 +22,4 @@ ESC<br/>
 /etc/init.d/crond restart <br/>
 </p><br/>
 
-<h3>Dowload</h3><br/>
-wget https://github.com/Guutong/pySQLdump/releases/download/v.0.0.1/pySQLdumpSetup.sh<br/>
+
