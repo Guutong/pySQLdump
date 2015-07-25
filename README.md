@@ -1,6 +1,6 @@
 # pySQLdump 
 Python 2.7
-<h3>Set vi conf/setting.ini</h3>
+<h3>Set vi conf/settings.ini</h3>
 
 [mysql]<br/>
 user = user_name<br/>
