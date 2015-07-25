@@ -14,12 +14,12 @@ destination = /root/pySQLBackup/<br/>
 wget https://github.com/Guutong/pySQLdump/releases/download/v.0.0.1/pySQLdumpSetup.sh<br/>
 
 <h3>How to setting Auto backup with crontab</h3><br/>
-<p>sudo apt-get install cron <br/>
-cron -e <br/>
-0 30 * * 0 /opt/pySQLdump/run.sh >/dev/null 2>&1<br/>
+<p>sudo apt-get install crontab <br/>
+crontab -e <br/>
+00 00 * * 0 cd /opt/pySQLdump/ && sh run.sh <br/>
 ESC<br/>
 :wq!<br/>
-/etc/init.d/crond restart <br/>
+/etc/init.d/cron restart <br/>
 </p><br/>
 
 
