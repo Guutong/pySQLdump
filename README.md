@@ -27,11 +27,14 @@ sudo apt-get install crontab
 
 ```
 crontab -e
+------------------------------vi insert mode------------------------------
 00 00 * * 0 cd /opt/pySQLdump/ && sh run.sh
+------------------------------vi insert mode------------------------------
+
 ESC
 :wq!
-```
-/etc/init.d/cron restart
 
+/etc/init.d/cron restart
+```
 
 
